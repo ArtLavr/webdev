@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+:root {
+    --main-color: white;
+}
+body{
+    width: 1600px;
+    background: FFFFFF;
+    margin: 0 auto;
+}
+.bgForHeader{
+    background:  url(./assets/forHeader.png);
+    width: 1600px;
+    height: 744px;
+    overflow: auto;
+    position: absolute;
+    z-index: -1;
+}
+header{
+    overflow: auto;
+}
+a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.6px;
+    font-style: normal;
+    opacity: 80%;
+}
+p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.6px;
+    font-style: normal;
+}
+li{
+    list-style: none;
+}
+nav{
+    margin-top: 25px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 544px;
+    /* height: 44px; */
+    margin: 0 auto;
+    align-items: center;
+}
+nav ul li a{
+    color: aliceblue;
+}
+nav ul li:nth-child(1) a{
+    opacity: 1;
+}
+nav ul li:nth-child(1) a::after{
+    content: '';
+    height: 1px;
+    background-color: white;
+    display: block;
+}
+nav ul li a:hover::after{
+    content: '';
+    height: 1px;
+    background-color: white;
+    display: block;
+}
+.logo{
+    background-image: url(./assets/logo.svg);
+    height: 44px;
+    width: 44px;
+    background-size: cover;
+}
+.yourLife h2{
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    color: var(--main-color);
+    width: fit-content;
+    margin: 0 auto;
+    text-transform: uppercase;
+    margin-top: 162px;
+    letter-spacing: 4.5px;
+}
+.yourLife p{
+    width: 504px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    color: var(--main-color);
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.yourLife a{
+    margin-top: 30px;
+    display: block;
+    opacity: 1;
+}
+.yourLife a div {
+    
+    margin: 0 auto;
+    background-color: #00AFDB;
+    width: 184px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    
+}
+.yourLife a div p {
+    margin: auto;
+    width: fit-content;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    
+   
+}
+.socialLinks{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    margin-top: 183px;
+    margin: 0 auto;
+    height: fit-content;
+}
+.socialLinks a{
+    height: 20px;
+    width: 20px;
+    margin: 0;
+}
+.socialLinks a:nth-child(1){
+    background-image: url(./assets/socialLink1.svg);
+}
+.socialLinks a:nth-child(2){
+    background-image: url(./assets/socialLink2.svg);
+}
+.socialLinks a:nth-child(3){
+    background-image: url(./assets/socialLink3.svg);
+}
+.socialLinks a:nth-child(4){
+    background-image: url(./assets/socialLink4.svg);
+}
