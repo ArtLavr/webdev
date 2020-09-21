@@ -97,13 +97,13 @@ nav ul li a:hover::after{
     margin: 0 auto;
     margin-top: 20px;
 }
-.yourLife a{
+.getStarted{
     margin-top: 30px;
     display: block;
     opacity: 1;
 }
-.yourLife a div {
-    
+
+.getStarted div {
     margin: 0 auto;
     background-color: #00AFDB;
     width: 184px;
@@ -112,21 +112,21 @@ nav ul li a:hover::after{
     align-items: center;
     
 }
-.yourLife a div p {
+.getStarted div p {
     margin: auto;
     width: fit-content;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
-    
+    color: white;
    
 }
 .socialLinks{
     display: flex;
     justify-content: space-between;
     width: 150px;
-    margin-top: 183px;
+    padding-top: 183px;
     margin: 0 auto;
     height: fit-content;
 }
@@ -146,4 +146,31 @@ nav ul li a:hover::after{
 }
 .socialLinks a:nth-child(4){
     background-image: url(./assets/socialLink4.svg);
+}
+.rappresent{
+    width: 1600px;
+    height: 842px;
+    margin-top: 89px;
+    display: flex;
+}
+.rappresent img{
+    margin-top: 120px;
+    margin-left: 923px;
+}
+.rappresent section{
+    height: fit-content;
+    
+}
+.rappresent section h3{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: bold;
+    width: 407px;
+}
+.rappresent section p{
+    
 }
