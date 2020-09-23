@@ -75,16 +75,23 @@ nav ul li a:hover::after{
     width: 44px;
     background-size: cover;
 }
-.yourLife h2{
+
+.yourLife h1,h2{
     font-weight: bold;
     font-size: 64px;
     line-height: 75px;
     color: var(--main-color);
+    text-transform: uppercase;
+    letter-spacing: 4.5px;
+    display: inline;
+}
+.yourLife {
+    
     width: fit-content;
     margin: 0 auto;
-    text-transform: uppercase;
+    margin-bottom: 90px;
     margin-top: 162px;
-    letter-spacing: 4.5px;
+    
 }
 .yourLife p{
     width: 504px;
@@ -97,37 +104,41 @@ nav ul li a:hover::after{
     margin: 0 auto;
     margin-top: 20px;
 }
-.getStarted{
+.firstButton{
+    margin: 0 auto;
     margin-top: 30px;
+}
+.getStarted{
     display: block;
     opacity: 1;
-}
-
-.getStarted div {
-    margin: 0 auto;
+    
+    width: fit-content;
     background-color: #00AFDB;
     width: 184px;
     height: 46px;
     display: flex;
     align-items: center;
-    
+    transition: 0.5s ease;
 }
-.getStarted div p {
+.getStarted:hover{
+    background-color: #009CC2;
+    transition: 0.5s ease;
+}
+.getStarted p{
     margin: auto;
     width: fit-content;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
-    color: white;
-   
+    color: white; 
 }
 .socialLinks{
     display: flex;
     justify-content: space-between;
     width: 150px;
-    padding-top: 183px;
     margin: 0 auto;
+    margin-top: 183px;
     height: fit-content;
 }
 .socialLinks a{
