@@ -5,7 +5,7 @@
     font-family: 'Roboto', sans-serif;
 }
 :root {
-    --main-color: white;
+    --main-color: #ffffff;
 }
 body{
     width: 1600px;
@@ -36,6 +36,26 @@ p{
     font-size: 14px;
     line-height: 19.6px;
     font-style: normal;
+}
+h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+
+}
+.p500{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 140%;
+color: #4E4E4E;
+
 }
 li{
     list-style: none;
@@ -89,7 +109,7 @@ nav ul li a:hover::after{
     
     width: fit-content;
     margin: 0 auto;
-    margin-bottom: 90px;
+    margin-bottom: 89px;
     margin-top: 162px;
     
 }
@@ -161,27 +181,24 @@ nav ul li a:hover::after{
 .rappresent{
     width: 1600px;
     height: 842px;
-    margin-top: 89px;
     display: flex;
+    justify-content: space-between;
 }
-.rappresent img{
-    margin-top: 120px;
-    margin-left: 923px;
-}
-.rappresent section{
-    height: fit-content;
-    
-}
-.rappresent section h3{
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 28px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-style: normal;
-    font-weight: bold;
+.descriptionBlock1{
     width: 407px;
+    height: fit-content;
+    margin-top: 295px;
+    margin-left: 268px;
 }
-.rappresent section p{
-    
+.firstP500 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.imgForRappresent{
+    background-image: url(./assets/forRappresent.png);
+    width: 407px;
+    height: 582px;
+    background-size: cover;
+    margin-top: 120px;
+    margin-right: 270px;
 }
