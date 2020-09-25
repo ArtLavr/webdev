@@ -138,10 +138,7 @@ h2 {
   margin-top: 30px;
 }
 .getStarted {
-  display: block;
   opacity: 1;
-
-  width: fit-content;
   background-color: #00afdb;
   width: 184px;
   height: 46px;
@@ -197,24 +194,30 @@ h2 {
   display: flex;
   justify-content: space-between;
 }
-.descriptionBlock1 {
-  width: 407px;
-  height: fit-content;
+.descriptionBlock1{
   margin-top: 295px;
   margin-left: 268px;
 }
-.descriptionBlock1 h3 {
-  width: 367px;
+.descriptionBlock {
+  width: 407px;
+  height: fit-content;
+  
+}
+.descriptionBlock h3 {
+  width: 370px;
 }
 .firstP500 {
   margin-top: 20px;
   margin-bottom: 30px;
 }
-.imgForRappresent {
-  background-image: url(./assets/forRappresent.png);
+.imgDescription{
   width: 407px;
   height: 582px;
   background-size: cover;
+}
+.imgForRappresent {
+  background-image: url(./assets/forRappresent.png);
+ 
   margin-top: 120px;
   margin-right: 270px;
 }
@@ -295,7 +298,7 @@ h4 {
 }
 .arrowsPagination div:nth-child(1),
 div:nth-child(3) {
-  width: 5.66px;
+  width: 7px;
   height: 11.31px;
 }
 .arrowsPagination div:nth-child(2) {
@@ -305,9 +308,28 @@ div:nth-child(3) {
 .arrowsPagination div:nth-child(1) {
   background-image: url(./assets/arrow-left.svg);
 }
+.arrowsPagination div:nth-child(1):hover,div:nth-child(3):hover{
+  opacity: 0.5;
+}
 .arrowsPagination div:nth-child(2) {
   background-image: url(./assets/pagination.svg);
 }
 .arrowsPagination div:nth-child(3) {
   background-image: url(./assets/arrow-right.svg);
+}
+.implement{
+  height: 842px;
+  background-color: var(--main-color);
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+.imgForImplement{
+  background-image: url(./assets/forImplement.png);
+  margin-top: 120px;
+  margin-left: 269px;
+}
+.descriptionBlock3{
+  margin-top: 319px;
+  margin-right: 378px;
 }
